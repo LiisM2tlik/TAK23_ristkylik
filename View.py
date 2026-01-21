@@ -1,4 +1,7 @@
+
+from tkinter import Tk
 from tkinter import *
+
 
 class View(Tk):
     def __init__(self, controller):

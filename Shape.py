@@ -21,7 +21,7 @@ class Rectangle:
         self.__pikkus = pikkus
 
     def area(self):
-        return float(self.__laius) * float(self.__laius)
+        return float(self.__laius) * float(self.__pikkus)
 
     def perimeter(self):
-        return 2 * (float(self.__laius) + float(self.__laius))
+        return 2 * (float(self.__laius) + float(self.__pikkus))
